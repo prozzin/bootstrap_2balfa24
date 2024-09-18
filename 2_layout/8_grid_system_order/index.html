@@ -13,7 +13,27 @@
 <body>
     <div class="container">
         <div class="row">
-            
+            <!--order: ordena apartir da resolução-->
+            <div class="col order-sm-3">primeira</div>    
+            <div class="col order-sm-2">segunda</div>
+            <div class="col order-sm-1">terceira</div>
+        </div>
+        <div class="row">
+            <div class="col order-md-4">primeira</div>
+            <div class="col order-md-3">segunda</div>
+            <div class="col order-md-2">terceira</div>
+            <div class="col order-md-1">quarta</div>
+        </div>
+        <!--
+        crie 3 divs: maça banna abacate
+        sm: maça banana abacate
+        md: banana maça abacate
+        lg: abacate banana maça
+        -->
+        <div class="row">
+            <div class="col order-sm-1 order-md-2 order-lg-3">maça</div>
+            <div class="col order-sm-2 order-md-1 order-lg-2">banana</div>
+            <div class="col order-sm-3 order-md-3 order-lg-1">abacate</div>
         </div>
     
        </div>
